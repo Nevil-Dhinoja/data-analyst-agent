@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2196F3&height=200&section=header&text=Data%20Analyst%20Agent&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Autonomous%20AI%20analyst%20that%20queries%2C%20charts%20and%20reports&descAlignY=60&descSize=17&descColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=2,12,20,24&height=280&section=header&text=Data%20Analyst%20Agent&fontSize=65&fontColor=fff&fontAlignY=42&desc=Autonomous%20AI%20analyst%20that%20queries%2C%20charts%20and%20reports&descAlignY=62&descSize=16&descColor=fff&animation=twinkling" width="100%"/>
+
+<br/>
+
 
 [![Made by Nevil Dhinoja](https://img.shields.io/badge/Made%20by-Nevil%20Dhinoja-2196F3?style=for-the-badge)](https://github.com/Nevil-Dhinoja)
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
