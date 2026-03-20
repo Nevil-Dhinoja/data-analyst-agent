@@ -338,6 +338,6 @@ If this project helped you or saved you time, a star on the repo goes a long way
 [![Fork](https://img.shields.io/github/forks/Nevil-Dhinoja/voice-sql-assistant?style=for-the-badge&color=gray)](https://github.com/Nevil-Dhinoja/data-analyst-agent/fork)
 
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2196F3&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20,24&height=120&section=footer" width="100%"/>
 
 </div>
