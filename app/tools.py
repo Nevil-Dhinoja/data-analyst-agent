@@ -1,7 +1,8 @@
 import os
 from langchain_community.utilities import SQLDatabase
-from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
+from langchain_community.tools import QuerySQLDatabaseTool
 from langchain_experimental.tools import PythonREPLTool
+from langchain.tools import Tool
 from sqlalchemy import create_engine
 
 os.makedirs("outputs", exist_ok=True)
@@ -29,13 +30,25 @@ plt.rcParams.update({
 def get_tools():
     engine = create_engine("sqlite:///data/ecommerce.db")
     db = SQLDatabase(engine)
+    raw_sql_tool = QuerySQLDatabaseTool(db=db)
 
-    sql_tool = QuerySQLDataBaseTool(db=db)
-    sql_tool.name = "sql_query"
-    sql_tool.description = (
-        "Run a SQL query on the ecommerce database. "
-        "Tables: customers, products, orders. "
-        "Use this to fetch data, counts, aggregations and joins."
+    def clean_and_run_sql(query: str) -> str:
+        # strip backticks and markdown code fences the LLM adds
+        query = query.strip()
+        query = query.strip("`")
+        query = query.replace("```sql", "").replace("```", "")
+        query = query.strip()
+        return raw_sql_tool.run(query)
+
+    sql_tool = Tool(
+        name="sql_query",
+        func=clean_and_run_sql,
+        description=(
+            "Run a SQL query on the ecommerce database. "
+            "Tables: customers, products, orders. "
+            "Pass ONLY the raw SQL — no backticks, no markdown fences. "
+            "Use this to fetch data, counts, aggregations and joins."
+        )
     )
 
     python_tool = PythonREPLTool()
