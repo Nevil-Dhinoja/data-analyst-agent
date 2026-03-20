@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+data/ecommerce.db
+outputs/*.png
+outputs/*.pdf
+.streamlit/
+*.wav
+*.mp3
+venv/
+.venv/
+ 

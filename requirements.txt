@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-groq
+langchain-community
+langchain-experimental
+sqlalchemy
+pandas
+matplotlib
+seaborn
+python-dotenv
+faker

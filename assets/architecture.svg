@@ -1,0 +1,44 @@
+<svg width="780" height="160" viewBox="0 0 780 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <rect x="10" y="48" width="120" height="64" rx="10" fill="#E3F2FD" stroke="#1E88E5" stroke-width="1.2"/>
+  <text x="70" y="73" text-anchor="middle" font-family="monospace" font-size="11" fill="#0D47A1" font-weight="bold">Business Goal</text>
+  <text x="70" y="90" text-anchor="middle" font-family="monospace" font-size="10" fill="#1565C0">plain English</text>
+  <text x="70" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#1976D2">typed or clicked</text>
+
+  <line x1="130" y1="80" x2="158" y2="80" stroke="#666" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <rect x="158" y="28" width="150" height="104" rx="10" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="233" y="56" text-anchor="middle" font-family="monospace" font-size="11" fill="#4527A0" font-weight="bold">LangChain Agent</text>
+  <text x="233" y="73" text-anchor="middle" font-family="monospace" font-size="10" fill="#512DA8">Groq Llama 3.3 70b</text>
+  <text x="233" y="89" text-anchor="middle" font-family="monospace" font-size="10" fill="#7E57C2">plans + reasons</text>
+  <text x="233" y="105" text-anchor="middle" font-family="monospace" font-size="9" fill="#9575CD">multi-step ReAct</text>
+  <text x="233" y="120" text-anchor="middle" font-family="monospace" font-size="9" fill="#9575CD">auto fallback 8b</text>
+
+  <line x1="308" y1="80" x2="333" y2="80" stroke="#666" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <rect x="333" y="48" width="110" height="64" rx="10" fill="#E8F5E9" stroke="#43A047" stroke-width="1.2"/>
+  <text x="388" y="70" text-anchor="middle" font-family="monospace" font-size="11" fill="#1B5E20" font-weight="bold">SQL Tool</text>
+  <text x="388" y="87" text-anchor="middle" font-family="monospace" font-size="10" fill="#2E7D32">SQLite queries</text>
+  <text x="388" y="103" text-anchor="middle" font-family="monospace" font-size="9" fill="#388E3C">3 joined tables</text>
+
+  <line x1="443" y1="80" x2="468" y2="80" stroke="#666" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <rect x="468" y="48" width="110" height="64" rx="10" fill="#FFF3E0" stroke="#FB8C00" stroke-width="1.2"/>
+  <text x="523" y="67" text-anchor="middle" font-family="monospace" font-size="11" fill="#E65100" font-weight="bold">Python REPL</text>
+  <text x="523" y="84" text-anchor="middle" font-family="monospace" font-size="10" fill="#BF360C">pandas + matplotlib</text>
+  <text x="523" y="100" text-anchor="middle" font-family="monospace" font-size="9" fill="#E65100">saves charts 120dpi</text>
+
+  <line x1="578" y1="80" x2="603" y2="80" stroke="#666" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <rect x="603" y="48" width="110" height="64" rx="10" fill="#FCE4EC" stroke="#E91E63" stroke-width="1.2"/>
+  <text x="658" y="67" text-anchor="middle" font-family="monospace" font-size="11" fill="#880E4F" font-weight="bold">PDF Report</text>
+  <text x="658" y="84" text-anchor="middle" font-family="monospace" font-size="10" fill="#AD1457">markdown + charts</text>
+  <text x="658" y="100" text-anchor="middle" font-family="monospace" font-size="9" fill="#C2185B">one-click download</text>
+
+  <text x="390" y="148" text-anchor="middle" font-family="monospace" font-size="10" fill="#aaa">Autonomous pipeline -- goal in, PDF report out, zero cost</text>
+</svg>
