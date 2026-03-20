@@ -250,6 +250,23 @@ Or click **Run Full Report** in the sidebar to run all 5 standard analyses at on
 
 ---
 
+## Roadmap
+
+- [x] Autonomous ReAct agent with SQL + Python tools
+- [x] RFM customer segmentation
+- [x] Revenue trend analysis
+- [x] Funnel analysis
+- [x] Correlation heatmap
+- [x] Consistent chart styling and branding
+- [x] PDF export per analysis
+- [x] Full business report mode -- 5 analyses in one PDF
+- [x] Auto model fallback (70b -> 8b on rate limit)
+- [ ] Upload your own CSV and analyse it
+- [ ] Scheduled reports via APScheduler
+- [ ] Deploy to Streamlit Cloud
+
+---
+
 ## The AI Grid
 
 </div>
@@ -265,23 +282,6 @@ This repo is part of a series of open-source AI tools built at zero cost.
 | RAG Research Assistant | LlamaIndex · ChromaDB · sentence-transformers | Chat with PDFs + web + database simultaneously |
 
 </div>
-
----
-
-## Roadmap
-
-- [x] Autonomous ReAct agent with SQL + Python tools
-- [x] RFM customer segmentation
-- [x] Revenue trend analysis
-- [x] Funnel analysis
-- [x] Correlation heatmap
-- [x] Consistent chart styling and branding
-- [x] PDF export per analysis
-- [x] Full business report mode -- 5 analyses in one PDF
-- [x] Auto model fallback (70b -> 8b on rate limit)
-- [ ] Upload your own CSV and analyse it
-- [ ] Scheduled reports via APScheduler
-- [ ] Deploy to Streamlit Cloud
 
 ---
 
@@ -322,7 +322,7 @@ designed to teach a real concept through a working, shippable product.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nevil%20Dhinoja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nevil-dhinoja)
 [![GitHub](https://img.shields.io/badge/GitHub-Nevil--Dhinoja-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nevil-Dhinoja)
-[![Gmail](https://img.shields.io/badge/Email-nevil%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nevil@email.com)
+[![Gmail](https://img.shields.io/badge/Email-nevil%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhinoja.nevil@email.com)
 
 <br/>
 
