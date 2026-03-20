@@ -250,6 +250,24 @@ Or click **Run Full Report** in the sidebar to run all 5 standard analyses at on
 
 ---
 
+## The AI Grid
+
+</div>
+
+<div align="center">
+
+This repo is part of a series of open-source AI tools built at zero cost.
+
+| Project | Stack | What it does |
+|---------|-------|-------------|
+| [VoiceSQL](https://github.com/Nevil-Dhinoja/voice-sql-assistant) | Whisper · LangChain · Groq · gTTS | Speak to your database — voice in, voice out |
+| **Data Analyst Agent** | LangChain · Groq · Pandas · fpdf2 | Autonomous e-commerce analyst with PDF reports |
+| RAG Research Assistant | LlamaIndex · ChromaDB · sentence-transformers | Chat with PDFs + web + database simultaneously |
+
+</div>
+
+---
+
 ## Roadmap
 
 - [x] Autonomous ReAct agent with SQL + Python tools
