@@ -373,6 +373,7 @@ Every tool in an agent's toolkit needs an output validation layer. Not because t
 *This is Break 2 from the Data Analyst Agent Layer 2 experiments.*
 *Full break documentation: [BREAKS.md](https://github.com/Nevil-Dhinoja/data-analyst-agent/blob/main/BREAKS.md)*
 *Project: [github.com/Nevil-Dhinoja/data-analyst-agent](https://github.com/Nevil-Dhinoja/data-analyst-agent)*
+
 ---
 ## The AI Grid
 
