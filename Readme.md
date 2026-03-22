@@ -386,7 +386,8 @@ This repo is part of a series of open-source AI tools built at zero cost.
 |---------|-------|-------------|
 | [VoiceSQL](https://github.com/Nevil-Dhinoja/voice-sql-assistant) | Whisper · LangChain · Groq · gTTS | Speak to your database — voice in, voice out |
 | **Data Analyst Agent** | LangChain · Groq · Pandas · fpdf2 | Autonomous e-commerce analyst with PDF reports |
-| RAG Research Assistant | LlamaIndex · ChromaDB · sentence-transformers | Chat with PDFs + web + database simultaneously |
+| [ETL Pipeline](https://github.com/Nevil-Dhinoja/etl-pipeline) | PostgreSQL · Pandas · Groq · APScheduler | 7-stage production ETL with AI anomaly detection |
+| [RAG Research Assistant](https://github.com/Nevil-Dhinoja/rag-research-assistant) | LlamaIndex · ChromaDB · sentence-transformers | Chat with PDFs + web + database simultaneously |
 
 </div>
 
