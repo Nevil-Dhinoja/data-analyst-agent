@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2196F3&height=200&section=header&text=Data%20Analyst%20Agent&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Autonomous%20AI%20analyst%20that%20queries%2C%20charts%20and%20reports&descAlignY=60&descSize=17&descColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=2,12,20,24&height=280&section=header&text=Data%20Analyst%20Agent&fontSize=65&fontColor=fff&fontAlignY=42&desc=Autonomous%20AI%20analyst%20that%20queries%2C%20charts%20and%20reports&descAlignY=62&descSize=16&descColor=fff&animation=twinkling" width="100%"/>
+
+<br/>
+
 
 [![Made by Nevil Dhinoja](https://img.shields.io/badge/Made%20by-Nevil%20Dhinoja-2196F3?style=for-the-badge)](https://github.com/Nevil-Dhinoja)
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -267,6 +270,24 @@ Or click **Run Full Report** in the sidebar to run all 5 standard analyses at on
 
 ---
 
+## The AI Grid
+
+</div>
+
+<div align="center">
+
+This repo is part of a series of open-source AI tools built at zero cost.
+
+| Project | Stack | What it does |
+|---------|-------|-------------|
+| [VoiceSQL](https://github.com/Nevil-Dhinoja/voice-sql-assistant) | Whisper · LangChain · Groq · gTTS | Speak to your database — voice in, voice out |
+| **Data Analyst Agent** | LangChain · Groq · Pandas · fpdf2 | Autonomous e-commerce analyst with PDF reports |
+| RAG Research Assistant | LlamaIndex · ChromaDB · sentence-transformers | Chat with PDFs + web + database simultaneously |
+
+</div>
+
+---
+
 ## License
 
 MIT -- free to use, fork and build on.
@@ -275,10 +296,15 @@ MIT -- free to use, fork and build on.
 
 <div align="center">
 
+
+<br/>
+
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="160" align="center" valign="top">
-<img src="https://github.com/Nevil-Dhinoja.png" width="110" style="border-radius:50%"/>
+<td width="180" align="center" valign="top">
+
+<img src="https://github.com/Nevil-Dhinoja.png" width="120" style="border-radius:50%"/>
+
 </td>
 <td width="30"></td>
 <td valign="middle">
@@ -287,8 +313,8 @@ MIT -- free to use, fork and build on.
 <p align="left"><i>AI / ML Engineer &nbsp;·&nbsp; Full-Stack Developer &nbsp;·&nbsp; Gujarat, India</i></p>
 <p align="left">
 I build AI systems that are practical, deployable, and free to run.<br/>
-This is part of a series of open-source AI tools -- each one built to<br/>
-teach a real industry concept through a working, shippable product.
+This project is part of a larger series of open-source AI tools — each one<br/>
+designed to teach a real concept through a working, shippable product.
 </p>
 
 </td>
@@ -299,23 +325,7 @@ teach a real industry concept through a working, shippable product.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nevil%20Dhinoja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nevil-dhinoja)
 [![GitHub](https://img.shields.io/badge/GitHub-Nevil--Dhinoja-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nevil-Dhinoja)
-[![Gmail](https://img.shields.io/badge/Email-your%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Nevil-Dhinoja&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&title_color=2196F3&icon_color=2196F3" height="160"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nevil-Dhinoja&theme=dark&hide_border=true&ring=2196F3&fire=2196F3&currStreakLabel=2196F3" height="160"/>
-
-<br/><br/>
-
----
-
-> *"I don't just learn tools -- I build things with them."*
->
-> -- Nevil Dhinoja
-
----
+[![Gmail](https://img.shields.io/badge/Email-nevil%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhinoja.nevil@email.com)
 
 <br/>
 
@@ -323,12 +333,11 @@ If this project helped you or saved you time, a star on the repo goes a long way
 
 <br/>
 
-[![Star this repo](https://img.shields.io/github/stars/Nevil-Dhinoja/data-analyst-agent?style=for-the-badge&color=2196F3)](https://github.com/Nevil-Dhinoja/data-analyst-agent)
+[![Star this repo](https://img.shields.io/github/stars/Nevil-Dhinoja/voice-sql-assistant?style=for-the-badge&color=F55036)](https://github.com/Nevil-Dhinoja/data-analyst-agent)
 &nbsp;
-[![Fork](https://img.shields.io/github/forks/Nevil-Dhinoja/data-analyst-agent?style=for-the-badge&color=gray)](https://github.com/Nevil-Dhinoja/data-analyst-agent/fork)
+[![Fork](https://img.shields.io/github/forks/Nevil-Dhinoja/voice-sql-assistant?style=for-the-badge&color=gray)](https://github.com/Nevil-Dhinoja/data-analyst-agent/fork)
 
 <br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2196F3&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20,24&height=120&section=footer" width="100%"/>
 
 </div>
